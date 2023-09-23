@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food landing page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container-fluid-md container1">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Hot Meals</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><span class="deliverto">Deliver to:</span><i
+                class="fa-solid fa-location-dot"></i><span class="current"> Current Location </span><span
+                class="nagar">Ashok Nagar, Chennai-600013</span></a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <span class="search">Search Food</span></a>
+          </li>
+
+          <form class="form-inline my-2 my-lg-0">
+  
+            <button class="btn btn-outline-success my-2 my-sm-0 login" type="login"><i class="fa-solid fa-user"></i><span
+                class="logintxt">Login</span></button>
+          </form>
+        </ul>
+      </div>
+    </nav>
+
+
+  </div>
+  <div class="container-fluid-md cntr-2">
+    <div class="row">
+      <div class="col-sm-8 look">
+        <h1>Look at your fav Meals</h1>
+        <p>Within a few clicks, find meals that are accessible near you</p>
+        <div class="d-flex flex-row bd-highlight mb-3 delpic">
+          <div class="p-2 bd-highlight bike"><i class="fa fa-motorcycle" aria-hidden="true"> <span class="deliver">
+                Delivery</span></i></div>
+          <div class="p-2 bd-highlight bag"><img src="./images/bag.png" alt="bag img"><span class="pickup">Pickup</span>
+          </div>
+          <!----->
+          <div  class="enteradd"><input type="text" placeholder="&#Xf041;Enter Your Address" ></div>
+          <button  type="button" class="btn btn-warning findfood"><i class="fa fa-search searchicon" aria-hidden="true"></i><span class="find">Find Food</span></button>
+
+        </div>
+
+      </div>
+      <div class="col-sm-4 foodimg"><img src="./images/pngegg 1.png" alt="food image"></div>
+
+    </div>
+    <div class="container-md foodrow">
+      <div class="row">
+        <div class="col-md-3 fstimg"><img src="./images/vada.png" alt="vada img">
+          <h2 class="vada">Vada</h2>
+          <h2 class="min">30 min Delivery</h2>
+        </div>
+        <div class="col-md-3 secimg"><img src="./images/idly.png" alt="idly img">
+          <h2 class="idly">Idly</h2>
+          <h2 class="min">30 min Delivery</h2>
+        </div>
+        <div class="col-md-3 thirdimg"><img src="./images/parotta.png" alt="parotta img">
+          <h2 class="parotta">parotta</h2>
+          <h2 class="min">30 min Delivery</h2>
+        </div>
+        <div class="col-md-3 fourthimg"><img src="./images/kichadi.png" alt="kichadi img">
+          <h2 class="kichadi">kichadi</h2>
+          <h2 class="min">30 min Delivery</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container-md howdoes">
+      <h1>How does it work</h1>
+      <div class="row iconrow">
+        <div class="col-md-4 pricetag"></span><img class="price" src="./images/priceicon.png" alt="price tag"><span class="Verticalline2"></span><span
+            class="daily">Daily Discounts</span><span class="Verticalline"></span></div>
+        <div class="col-md-4 livetrack"><img src="./images/livetrack icon.png" alt="livetrack"><span class="live">Live
+            Tracing</span><span class="Verticalline1"></span></div>
+        <div class="col-md-4 time"><img src="./images/time icon.png" alt="time"><span class="quick">Quick
+            Delivery</span></div>
+      </div>
+    </div>
+    <div class="container-fluid-md searchfood" >
+      <div class="row foods" id="fd">
+        <h1>Search by Food</h1>
+        <div class="col-md-2 dosaimg"><img src="./images/dosa.png" alt="dosaimg"><span class="dosa">Dosa</span></div>
+        <div class="col-md-2 aappamimg"><img src="./images/aappam.png" alt="aappamimg"><span
+            class="aappam">Aappam</span></div>
+        <div class="col-md-2 puttuimg"><img src="./images/puttu.png" alt="puttuimg"><span class="puttu">Puttu</span>
+        </div>
+        <div class="col-md-2 idiyappamimg"><img src="./images/idiyappam.png" alt="Idiyappamimg"><span
+            class="idiyappam">Idiyappam</span></div>
+        <div class="col-md-2 pongalimg"><img src="./images/pongal.png" alt="Pongalimg"><span
+            class="pongal">Pongal</span></div>
+        <div class="col-md-2 riceimg"><img src="./images/veg rice.png" alt="Veg Rice"><span class="rice">Veg Rice</span>
+        </div>
+
+
+
+      </div>
+    </div>
+    <div class="container-md bestdeal">
+      <div class="row">
+        <div class="col-md-6 best"><h1>Best deals <span class="crispy">Crispy Diffen</span></h1><p class="enjoy">Enjoy the large size of Dosa. Complete 
+          perfect slice of Dosa.</p><p class="proceed">Proceed to order<i class="fa fa-chevron-right" aria-hidden="true"></i></p></div>
+        <div class="col-md-6"><img class="foodleaf" src="./images/foodleaf.png" alt="foodimg"></div>
+
+      </div>
+    </div>
+    <div class="container-md popularitem">
+      <div class="row popularitemrow">
+        <h1>Popular items</h1>
+        <div class="col-md-2 murukkuimg"><img src="./images/murukku.png" alt="Murukku"><span class="murukku">Murukku</span><p class="ordernw">Order Now</p></div>
+        <div class="col-md-2 paniyaramimg"><img src="./images/paniyaram.png" alt="Paniyaram"><span class="paniyaram">Paniyaram</span><p class="ordernw">Order Now</p></div>
+        <div class="col-md-2 seevalmurukkuimg"><img src="./images/Seeval Murukku.png" alt="Seeval murukku"><span class="seevalmurukku">Seeval Murukku</span><p class="ordernw">Order Now</p></div>
+        <div class="col-md-2 mixtureimg"><img src="./images/mixture.png" alt="Mixture"><span class="mixture">Mixture</span><p class="ordernw">Order Now</p></div>
+        <div class="col-md-2 soupimg"><img src="./images/soup.png" alt="soup"><span class="soup">Veg Soup</span><p class="ordernw">Order Now</p></div>
+
+      </div>
+
+      <div class="row sweetrow">
+        
+        <div class="col-md-2 gulabjamunimg"><img src="./images/gulabjamun.png" alt="gulabjamun"><span class="gulabjamun">Gulab Jamun</span><p class="ordernw">Order Now</p></div>
+        <div class="col-md-2 poriurundaiimg"><img src="./images/poriurundai.png" alt="Paniyaram"><span class="poriurundai">Pori Urundai</span><p class="ordernw">Order Now</p></div>
+        <div class="col-md-2 jangriimg"><img src="./images/jangri.png" alt="jangri"><span class="jangri">Jangri</span><p class="ordernw">Order Now</p></div>
+        <div class="col-md-2 lattuimg"><img src="./images/lattu.png" alt="Lattu"><span class="lattu">Lattu</span><p class="ordernw">Order Now</p></div>
+        <div class="col-md-2 Halwaimg"><img src="./images/halwa.png" alt="Halwa"><span class="soup">Halwa</span><p class="ordernw">Order Now</p></div>
+
+      </div>
+    
+    </div>
+    <div class="container-fluid-md footer">
+      <div class="row footerrow">
+        <!-- <div class="line"><img src="./images/line.png" alt="line"></div> -->
+        <div class="col-md-2 cmpy"><h1>Company</h1>
+        <p class="details">About us</p>
+        <p class="details">Team</p>
+        <p class="details">Careers</p>
+        <p class="details">Blog</p></div>
+
+        <div class="col-md-2 contact"><h1>Contact</h1>
+          <p class="details">Help & Support</p>
+          <p class="details">Partner with us</p>
+          <p class="details">Ride with us</p></div>
+          
+
+          <div class="col-md-2 legal"><h1>Legal</h1>
+            <p class="details">Terms & Conditions</p>
+            <p class="details">Refund & Cancellation</p>
+            <p class="details">Privacy Policy</p>
+            <p class="details">Cookie Policy</p></div>
+
+            
+            
+
+              <div class="col-md-2 follow"><h1>Follow Us</h1>
+                <div class="socialiconimg"><img src="./images/socialicon.png" alt="icon"></div>
+                <p class="details" id="receive">Receive exclusive offers in your mailbox</p>
+                <div class="mail"><input  type="email" placeholder="&#Xf003;Enter Your email"><button type="button" class="btn btn-warning"><span class="subscribe">Subscribe</span></button></div>
+              </div>
+
+              <div class="allright">
+                <div class="all">All rights Reserved <img src="./images/Symbol.png" alt=""></div>
+                <div class="all" id="heart">Made with <i class="fa fa-heart" aria-hidden="true" style=" color:  #FFB800;"></i> by <span class="athi">Athi</span></div>
+
+              </div>
+          
+                
+
+      </div>
+    </div>
+    
+    
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

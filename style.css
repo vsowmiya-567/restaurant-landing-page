@@ -1,0 +1,1078 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&family=Poppins:wght@100;400&family=Qwigley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Peralta&family=Poppins:wght@100;400&family=Qwigley&family=Source+Sans+3:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+}
+.container1{
+    background-color:white;
+    position: relative;
+}
+.navbar-brand{
+    font-family: Qwigley;
+    font-size: 60px;
+    color: #FFB30E;
+    margin-left: 80px;
+}
+
+.nav-link .deliverto{
+    /* font-family: Source Sans Pro;
+    font-size: 20px;
+    width: 1500px;
+    font-weight: 500px;
+    margin-left: 50px;
+     */
+font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.nav-link i{
+    color: #FFB30E;
+    margin-left: 10px;
+
+}
+
+.current{
+    font-size: 18px;
+    margin-left: 5px;
+
+}
+.nagar{
+    font-size: 18px;
+    font-weight: 800px;
+    font-family: Open Sans;
+}
+.nav-link{
+    margin-left: 70px;
+}
+.search{
+    margin-left: 3px;
+    font-size: 18px;
+}
+.login i{
+    width: 16px;
+    height: 18px;
+    color:#FDBE35;
+    
+}
+.login{
+    /* margin-left: 15px;
+    position: absolute;
+    border: 1px #FDBE35;
+    background-color: #FDBE35;
+    color:  #FDBE35;
+    margin-bottom: 10px;
+     */
+
+
+     width:118px;
+height: 46px;
+padding: 14px, 24px, 14px, 24px;
+border-radius: 8px;
+border: 1px;
+gap: 10px;
+background:white;
+border: 1px solid #FFAC0D
+
+}
+.logintxt{
+    font-size: 18px;
+    font-weight: 500px;
+    font-family: Source Sans Pro;
+    margin-left: 13px;
+    color: #FDBE35;
+    
+}
+.row{
+    background-color: #FDBE35;
+    height: 500px;
+    width: 100%;
+
+}
+.row .look h1{
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: Qwigley;
+    font-size: 70px;
+}
+.row .look p{
+    color: #504F4F;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    margin-left: 100px;
+}
+.foodimg img{
+    width: 500px;
+    height: 400px;
+    margin-top: 70px;
+}
+.delpic{
+    background-color: white;
+    width: 700px;
+    height: 150px;
+    margin-left: 100px;
+    box-shadow: 0px 1px 1px 0.5px rgba(190, 188, 188, 0.45);
+    display: block;
+    position: relative;
+
+}
+.delpic .bike{
+    width: 130px;
+    height: 25px;
+    color:  #8937081a;
+    margin-top: 22px;
+    margin-left: 15px;
+    background-color: #F172281A;
+    border-radius: 5px;
+}
+.delpic .bike i {
+    margin-bottom: 10px;
+    margin-left: 15px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deliver{
+    margin-left: 5px;
+    font-size: 15px;
+    font-family: Source Sans Pro;
+}
+.delpic .bike i{
+    color: #F17228;
+    /* height: 10px;
+    width: 18px;
+     */
+}
+.bag{
+    height: 25px;
+    width: 120px;
+    background-color: white;
+    margin-left: 5px;
+    margin-top: 22px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bag img{
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bag .pickup{
+    color: #757575;
+    font-size: 15px;
+    font-family: Source Sans Pro;
+    margin-left: 7px;
+}
+.enteradd{
+    width:  500px;
+height: 35px;
+padding: 7px, 0px, 8px, 16px;
+border-radius: 8px;
+gap: 12px;
+background-color: #F5F5F5;
+
+margin-top: 80px;
+margin-left: 16px;
+position: absolute;
+
+}
+.enteradd:hover{
+    transform: scale(1.05);
+}
+.enteradd input{
+    border: none;
+    background-color:#F5F5F5;
+    margin-top: 5px;
+    margin-left: 10px;
+    
+    
+font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.findfood{
+    background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+    width: 120px;
+    height: 45px;
+    padding: 21px, 48px, 21px, 48px;
+    border-radius: 8px;
+    gap: 10px;
+    position: absolute;
+    margin-top: 76px;
+    margin-left: 560px;
+
+
+}
+.findfood:hover{
+    transform: scale(1.05);
+}
+.searchicon{
+    color: white;
+    /* width: 1px;
+    height: 1px; */
+
+}
+.find{
+    
+font-family: Source Sans Pro;
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+margin-left: 5px;
+
+}
+.foods{
+    padding: 30px;
+}
+.foodrow .row{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.fstimg img{
+    width: 300px;
+    height: 250px;
+}
+.secimg img{
+    width: 300px;
+    height: 250px;
+}
+.thirdimg img{
+    width: 300px;
+    height: 250px;
+}
+.fourthimg img{
+    width: 300px;
+    height: 250px;
+}
+.vada{
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 500px;
+    color: #424242;
+    margin-top: 30px;
+}
+.idly{
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 500px;
+    color: #424242;
+    margin-top: 30px;
+}
+.parotta{
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 500px;
+    color: #424242;
+    margin-top: 30px;
+}
+.kichadi{
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 500px;
+    color: #424242;
+    margin-top: 30px;
+}
+.min{
+    height: 40px;
+    width: 160px;
+    background-color: #F1722833;
+    border-radius: 5px;
+    margin-top: 5px;
+
+    color: #F17228;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.min:hover{
+    transform: scale(1.05);
+}
+.howdoes .row{
+    height: 200px;
+    width: 1100px;
+    background-color: white;
+    box-shadow: 0px 5px 27px 11px #FFB5151A;
+    box-shadow: 0px 5px 27px 11px #FFB5151A;
+    position: relative;
+
+    
+}
+.howdoes h1{
+    
+    font-family: Source Sans Pro;
+    text-align: center;
+    color: #F17228;
+    font-size: 40px;
+    font-weight: 500px;
+
+}
+
+.howdoes .row .pricetag img{
+    height: 80px;
+    width: 80px;
+}
+.Verticalline{
+    border-left: 2px solid rgb(202, 205, 202);
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  margin-left: 130px;
+  margin-top: 100px;
+  top: 0;
+}
+.Verticalline1{
+    border-left: 2px solid rgb(202, 205, 202);
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  padding-right: 50px;
+  margin-top: 20px;
+
+  position: absolute;
+}
+/* .price .Verticalline2{
+    
+    border-left: 2px solid rgb(20, 187, 20);
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: 0px;
+    margin-top: 100px;
+    top: 0;
+  } */
+
+
+.pricetag{
+    margin-top: 80px;
+    margin-left: 0px;
+}
+.daily{
+    height: 70px;
+    width: 30px;
+    font-family: Source Sans Pro;
+    font-size: 30px;
+    font-weight: 500px;
+    margin-left: 25px;
+    margin-top: 15px;
+    
+    color: linear-gradient(92.84deg, #FB3C00 -47.72%, #FFB800 136.81%); 
+   
+}
+.livetrack{
+    margin-top: 80px;
+}
+.livetrack img{
+    height: 80px;
+    width: 80px;
+}
+.live{
+    font-family: Source Sans Pro;
+    font-size: 30px;
+    font-weight: 500px;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: linear-gradient(92.84deg, #FB3C00 -47.72%, #FFB800 136.81%); 
+   
+}
+.time{
+    margin-top: 80px;
+
+}
+.time img{
+    height: 80px;
+    width: 80px;
+}
+.quick{
+    font-family: Source Sans Pro;
+    font-size: 30px;
+    font-weight: 500px;
+    width: 70px;
+    height: 60px;
+    margin-left: 25px;
+    margin-top: 15px;
+    color: linear-gradient(92.84deg, #FB3C00 -47.72%, #FFB800 136.81%); 
+   
+}
+.pricetag .hr{
+    width: 10px;
+    height: 14px;
+    color: red;
+}
+.foodrow{
+    display: flex;
+    justify-content: center;
+}
+.iconrow{
+    margin-left: 100px;
+    box-shadow: 0px 5px 27px 11px #FFB5151A;
+    
+}
+.foods{
+    /* display: flex;
+    justify-content: center; */
+    background-color: #f6f5f3;
+    height: 400px;
+    width: 100%;
+    margin-top: 150px;
+    margin-right: 150px;
+
+}
+.foods h1{
+    font-family: Source Sans Pro;
+    font-size: 30px;
+    font-weight: 500px;
+    color:#212121;
+    margin-top: 10px;
+    margin-left: 250px;
+    
+}
+  
+.dosaimg img{
+    height: 170px;
+    width: 170px;
+    margin-left: 250px;
+}
+.dosa{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-right: 35px;
+    margin-top: 10px;
+    color: #424242;
+    font-family: Source Sans Pro;
+    margin-left: 330px;
+    font-size: 18px;
+    font-weight: 700;
+
+    
+}
+.aappamimg img{
+    height: 170px;
+    width: 170px;
+    margin-left: 200px;
+}
+.aappam{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-right: 35px;
+    margin-top: 10px;
+    color: #424242;
+    margin-left: 290px;
+    font-family: Source Sans Pro;
+    
+    font-size: 18px;
+    font-weight: 700;
+
+    
+}
+.puttuimg img{
+    height: 170px;
+    width: 170px;
+    margin-left:150px;
+}
+.puttu{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-right: 35px;
+    margin-top: 10px;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 700px;
+    font-family: Source Sans Pro;
+    margin-left:240px;
+
+    
+font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 700;
+
+
+    
+}
+.idiyappamimg img{
+    height: 170px;
+    width: 170px;
+    margin-left: 100px;
+}
+.idiyappam{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-right: 35px;
+    margin-top: 10px;
+    color: #424242;
+    
+    
+     
+    font-family: Source Sans Pro;
+    margin-left: 190px;
+    font-size: 18px;
+    font-weight: 700;
+
+    
+}
+.pongalimg img{
+    height: 170px;
+    width: 170px;
+    margin-left: 50px;
+}
+.pongal{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-right: 35px;
+    margin-top: 10px;
+    color: #424242;
+    font-size: 18px;
+    
+    font-family: Source Sans Pro;
+    margin-left: 100px;
+    
+font-size: 18px;
+font-weight: 700; 
+    
+}
+.riceimg img{
+    height: 170px;
+    width: 170px;
+    margin-right: 50px;
+}
+.rice{
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-right: 35px;
+    margin-top: 10px;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 700px;
+    font-family: Source Sans Pro;
+    margin-left: 10px;
+
+font-size: 18px;
+font-weight: 700; 
+
+
+    
+}
+.bestdeal .row{
+    background-color: white;
+}
+.best h1{
+
+font-family: Source Sans Pro;
+font-size: 43px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+width: 407px;
+height: 96px;
+
+
+}
+.crispy{
+    color: #FFB30E;
+}
+.enjoy{
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color:#616161B0;
+margin-top: 25px;
+
+width: 350px;
+height: 50px;
+
+
+}
+.proceed{
+    height: 60px;
+    width: 400px;
+    background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+
+    border-radius: 5px;
+    margin-top: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 900;
+line-height: 18px;
+letter-spacing: 0em;
+text-transform: uppercase;
+}
+.proceed:hover{
+    transform: scale(1.05);
+}
+.proceed i{
+    margin-left: 8px;
+}
+.bestdeal .row{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.foodleaf{
+    width: 700px;
+    height: 400px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+
+}
+
+.popularitemrow{
+    margin-left: 200px;
+    background-color: white;
+
+}
+.popularitemrow h1{
+
+font-family: Source Sans Pro;
+font-size: 43px;
+font-weight: 700;
+line-height: 48px;
+/* text-align: center; */
+color: #212121;
+margin-left: 400px;
+
+
+}
+.murukkuimg img{
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+
+}
+.paniyaramimg img{
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+
+}
+.seevalmurukkuimg img{
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+
+}
+.mixtureimg img{
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+
+}
+.soupimg img{
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+
+}
+.murukku{
+
+font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 700;
+line-height: 26px;
+text-align: center;
+margin-left: 50px;
+margin-top: 20px;
+color:  #424242;
+
+
+}
+.paniyaram{
+    
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    color:  #424242;
+}
+.seevalmurukku{
+    
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    color:  #424242;
+}
+.mixture{
+    
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    margin-left: 57px;
+    margin-top: 20px;
+    color:  #424242;
+}
+.soup{
+    
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    color:  #424242;
+}
+.ordernw{
+width: 180px;
+height: 50px;
+top: 3757px;
+left: 225px;
+padding: 21px, 48px, 21px, 48px;
+border-radius: 8px;
+gap: 10px;
+background-color: #F17228;
+box-shadow: 0px 20px 40px 0px #FA63233D;
+box-shadow: 0px 5px 10px 0px #FD725C38;
+
+
+
+font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFFFFF;
+}
+.ordernw:hover{
+    transform: scale(1.05);
+}
+.sweetrow{
+    margin-left: 200px;
+    background-color: white;
+
+}
+.gulabjamunimg img{
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+
+}
+.poriurundaiimg img{
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+
+}
+.jangriimg img{
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+
+}
+.lattuimg img{
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+
+}
+.Halwaimg img{
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+
+}
+.gulabjamun{
+    
+
+font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 700;
+line-height: 26px;
+text-align: center;
+margin-left: 40px;
+margin-top: 2px;
+color:  #424242;
+display: flex;
+/* justify-content: center; */
+
+
+}
+.poriurundai{
+    
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    color:  #424242;
+
+    width: 200px;
+}
+.jangri{
+    
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 20px;
+    color:  #424242;
+}
+.lattu{
+    
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    margin-left: 57px;
+    margin-top: 20px;
+    color:  #424242;
+}
+.Halwa{
+    
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+    color:  #424242;
+}
+.ordernw{
+width: 180px;
+height: 50px;
+top: 3757px;
+left: 225px;
+padding: 21px, 48px, 21px, 48px;
+border-radius: 8px;
+gap: 10px;
+background-color: #F17228;
+box-shadow: 0px 20px 40px 0px #FA63233D;
+box-shadow: 0px 5px 10px 0px #FD725C38;
+
+
+
+
+
+font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFFFFF;
+}
+.ordernw:hover{
+    transform: translate(0.01);
+}
+.line{
+    color: #F17228;
+    /* height: 12px; */
+    width: 800px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.footerrow{
+    background-color: #090D12;
+    width: 1920px;
+    height: 400px;
+    /* margin-bottom: 100px; */
+    padding: 100px;
+    position: relative;
+    
+    
+
+    
+
+
+}
+
+
+.cmpy h1{
+
+font-family: Source Sans Pro;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+
+}
+.details{
+    
+font-family: Source Sans Pro;
+font-size: 14px;
+font-weight: 300;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #F5F5F5;
+
+
+}
+
+.contact h1{
+
+font-family: Source Sans Pro;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+
+}
+
+.legal h1{
+
+font-family: Source Sans Pro;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+
+}
+.follow{
+    margin-left: 180px;
+}
+.follow h1{
+    color:  #F5F5F5;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.socialiconimg img{
+    margin-top: 20px;
+
+}
+#receive{
+    
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+width: 300px;
+margin-top: 20px;
+
+}
+.mail input{
+    background: #424242;
+    width: Fixed 334px;
+height:30px;
+top: 4851px;
+left: 1217px;
+padding: 7px, 0px, 8px, 16px;
+border-radius: 8px;
+gap: 10px
+
+
+}
+button{
+    background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+    box-shadow: 0px 14px 32px 0px #FFB20E4A;
+    box-shadow: 0px 5px 8px 0px #DE97003D;
+    margin-left: 10px;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    
+}
+button:hover{
+    transform: scale(1.05);
+
+}
+.subscribe{
+
+font-family: Source Sans Pro;
+font-size: 14px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+display: flex;
+justify-content: center;
+
+}
+
+.all{
+    font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+
+}
+.allright{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#heart{
+    margin-right: 350px;
+}
